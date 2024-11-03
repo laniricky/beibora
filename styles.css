@@ -1,0 +1,523 @@
+/* Navbar */
+.navbar {
+    background-color: #333; /* Dark background */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.navbar-brand img {
+    max-height: 50px; /* Adjust logo height */
+    /*filter: brightness(0) invert(1);  Invert logo colors for better contrast */
+}
+
+.navbar-nav .nav-link {
+    color: #212121; /* White text */
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FF6200; /* Yellow on hover */
+}
+
+
+/* Hero Section */
+.hero {
+    background-image: url('hero-background.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better contrast */
+}
+
+.hero p {
+    font-size: 1.5rem;
+    max-width: 600px; /* Adjust width for readability */
+    margin: 0 auto 30px;
+}
+
+.hero .btn-primary {
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    background-color: #FF6200; /* Yellow button */
+    border-color: #FF6200;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    color: #212121;
+}
+
+.hero .btn-primary:hover {
+    background-color: #FF7E2E; /* Darker yellow on hover */
+    border-color: #FF7E2E;
+}
+
+
+/* Products Section */
+.products {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 100px 0;
+}
+
+.products h2 {
+    font-size: 3rem;
+    color: #FF6200; /* Blue heading */
+    margin-bottom: 50px;
+}
+
+.products .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.products .card:hover {
+    transform: translateY(-10px); /* Card lift on hover */
+}
+
+.products .card-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.products .card-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.products .btn-danger {
+    background-color: #FF6200; /* Red button */
+    border-color: #FF6200;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.products .btn-danger:hover {
+    background-color: #c82333; /* Darker red on hover */
+    border-color: #c82333;
+}
+
+
+/* About Section */
+.about {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+
+.about h2 {
+    font-size: 3rem;
+    color: #FF6200; /* Green heading */
+    margin-bottom: 50px;
+}
+
+.about p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+/* Mission and Vision Section */
+.mission-vision {
+    padding: 100px 0;
+}
+
+.mission-vision h2 {
+    font-size: 3rem;
+    color: #FF6200; /* Blue heading */
+    margin-bottom: 50px;
+}
+
+.card {
+    border: none; /* Remove default card border */
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    font-size: 1.4rem;
+    line-height: 1.8;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+
+.testimonials h2 {
+    font-size: 3rem;
+    color: #FF6200; /* Red heading color */
+    margin-bottom: 50px;
+}
+
+.carousel {
+    margin-top: 50px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: auto;
+    background-color: rgba(247, 171, 29, 0.5);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #c0392b; /* Red color for carousel arrows */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.card-body img {
+    width: 100px; /* Adjust size of customer photos as needed */
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%; /* Ensure photos are displayed as circles */
+    margin-bottom: 20px;
+}
+
+
+/* FAQs Section */
+.faqs {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+
+.faqs h2 {
+    font-size: 3rem;
+    color: #FF6200; /* Blue heading */
+    margin-bottom: 50px;
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.card-header {
+    background-color: #fff;
+}
+
+.card-header button {
+    width: 100%;
+    text-align: left;
+    color: #333;
+}
+
+
+
+.card-body {
+    background-color: #fff;
+}
+
+
+/* Blog Section */
+.blog {
+    padding: 100px 0;
+}
+
+.blog h2 {
+    font-size: 3rem;
+    color: #FF6200; /* Red heading */
+    margin-bottom: 50px;
+}
+
+.blog .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.blog .card:hover {
+    transform: translateY(-10px); /* Card lift on hover */
+}
+
+.blog .card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.blog .card-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.blog .btn-danger {
+    background-color: #FF6200; /* Red button */
+    border-color: #FF6200;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.blog .btn-danger:hover {
+    background-color: #FF6200; /* Darker red on hover */
+    border-color: #FF6200;
+}
+
+/* Contact Section Enhancements */
+.contact {
+    background-color: #008116; /* Blue background */
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+.contact p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.contact .form-control {
+    font-size: 1.2rem;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-color: #fff; /* White border */
+    color: #495057; /* Dark text */
+}
+
+
+.contact .btn-primary {
+    background-color: #FF6200; /* Orange button */
+    border-color: #FF6200;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.contact .btn-primary:hover {
+    background-color: #FF7E2E; /* Darker orange on hover */
+    border-color: #FF7E2E;
+}
+
+/* Interactive Map Styling */
+#map {
+    height: 400px; /* Adjust map height as needed */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+/* Form Status Message */
+#formStatus {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+/* Responsive Design for Contact Section */
+@media (max-width: 768px) {
+    .contact .col-lg-6 {
+        margin-bottom: 50px;
+    }
+}
+
+
+/* Footer */
+footer {
+    background-color: #FF6200; /* Dark background */
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-social img {
+    width: 40px; /* Adjust social media icon size */
+    margin: 0 10px;
+}
+
+.footer-social i {
+    font-size: 2rem; /* Adjust icon size */
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.footer-social i:hover {
+    transform: scale(1.2); /* Scale up on hover */
+}
+
+.signup-section {
+    padding: 10rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, #EEEEEE 100%), url("../assets/img/bg-signup.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .signup-section .form-signup input {
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    padding: 1.25rem 2rem;
+    height: auto;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border: 0;
+  }
+
+  .blog-text p {
+    font-size: 0.8rem;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  
+  .contact-section {
+    padding-top: 5rem;
+    background-color: #EEEEEE;
+  }
+  .contact-section .card {
+    border: 0;
+    border-bottom: 0.25rem solid #FF6200;
+  }
+  .contact-section .card h4, .contact-section .card .h4 {
+    font-size: 0.8rem;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+  }
+  .contact-section .card hr {
+    opacity: 1;
+    border-color: #FF6200;
+    border-width: 0.25rem;
+    width: 3rem;
+  }
+  .contact-section .social {
+    margin-top: 5rem;
+  }
+
+  .social a {
+    text-decoration: none;
+    color: #FF6200;
+  }
+  .contact-section .social a {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 0.3);
+  }
+  .contact-section .social a:hover {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .contact-section .social a:active {
+    color: #fff;
+  }
+
+  .contact-mail a {
+    color: #212121;
+    text-decoration: none;
+  }
+  .contact-mail a:hover {
+    color: #FF6200;
+    text-decoration: underline;
+  }
+
+  .custom-icon {
+    color: #FF6200;
+  }
+
+  .custom-signupheader {
+    color: #FF6200;
+  }
+
+  .form-signup .btn-primary {
+    background-color: #FF6200; /* Orange button */
+    border-color: #FF6200;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .form-signup .btn-primary:hover {
+    color: #212121;
+  }
+
+.modal-content-p {
+	font-size: 0.8em;
+}
+
+.modal-header {
+	top: 0;
+	position: sticky;
+	z-index: 999;
+	background-color: #FFFFFF;
+}
+
+.product-img img {
+	width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: scale-down;
+}
+
+.product-ov img {
+	width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+}
+
+.blog-ov img {
+	width: 100%;
+      aspect-ratio: 2 / 1;
+      object-fit: cover;
+
+}
+
+ .stats-section {
+            padding: 60px 0;
+            background-color: #f8f9fa;
+        }
+        .stats-card {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .stats-card .number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #343a40;
+        }
+        .stats-card .label {
+            font-size: 1rem;
+            color: #6c757d;
+        }
+.blog-text-c {
+	color: #212121;
+	text-align: left;
+}
+
+.blog-image {
+	text-align: right;
+}
+
+.socials-font {
+	color: #212121;
+}
+
+
